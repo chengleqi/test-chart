@@ -4,4 +4,4 @@ metadata:
   name: {{ .Release.Name }}-configmap
 data:
   location: {{ quote .Values.location }}
-  info: 批量更新所有集群
+  info: "批量更新所有集群"
