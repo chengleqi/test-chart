@@ -3,4 +3,4 @@ kind: ConfigMap
 metadata:
   name: {{ .Release.Name }}-configmap
 data:
-  location: {{ quote .Values.localtion }}
+  location: {{ quote .Values.location }}
